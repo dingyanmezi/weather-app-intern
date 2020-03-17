@@ -6,7 +6,8 @@ I completeed this task in approxiamtely 4h30min. For the front-end part I used V
 
 ## Install
 1. Run ```git clone https://github.com/dingyanmezi/weather-app-intern.git```
-2. Run ```npm install```
+2. Run ```cd weather-app-intern/```
+3. Run ```npm install```
 
 ## Run
 1. Run ```npm start```
