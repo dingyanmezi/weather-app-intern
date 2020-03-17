@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I completeed this task in approxiamtely 4h30min. For the front-end part I used VanillaJS instead of any framework just to solidify my front-end basic knowledge. For the back-end part I used Express. Feel free to contact me for any question at your convenience!
+I completed this task in approximately 4h30min. For the front-end part I used VanillaJS instead of any framework just to solidify my basic front-end knowledge. For the back-end part I used Express. Feel free to contact me for any question at your convenience!
 
 ## Install
 1. Run ```git clone https://github.com/dingyanmezi/weather-app-intern.git```
@@ -11,4 +11,4 @@ I completeed this task in approxiamtely 4h30min. For the front-end part I used V
 
 ## Run
 1. Run ```npm start```
-2. Run ```http://localhost:3000/```
+2. Enter ```http://localhost:3000/``` in the web browser
