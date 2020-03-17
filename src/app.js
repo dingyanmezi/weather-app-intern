@@ -32,15 +32,17 @@ app.get('/weather', (req, res) => {
             error: 'You must provide an address!'
         })
     }
-
+    // call geocode to get the locationKey for forecast
     geocode(req.query.address, apikey, (error, {locationKey} = {}) => {
         if (error) {
             return res.send({ error })
         }
+        // forecast based on locationkey via API
         forecast(locationKey,apikey, (error, forecastData) => {
             if (error) {
                 return res.send({ error })
             }
+            // Send the data back to client
             res.send({
                 forecast: forecastData,
                 location: req.query.address

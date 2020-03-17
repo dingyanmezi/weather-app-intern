@@ -10,7 +10,7 @@ const forecast = (locationKey, apikey, callback) => {
         } else if (obj.error) {
             callback('Unable to find location', undefined)
         } else {
-            console.log(obj.DailyForecasts)
+            // console.log(obj.DailyForecasts)
             callback(undefined, JSON.stringify(obj.DailyForecasts))
         }
     })

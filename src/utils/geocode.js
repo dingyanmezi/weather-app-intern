@@ -10,7 +10,7 @@ const geocode = (address, apikey, callback) => {
         } else if (arr.length === 0) {
             callback('Unable to find location. Try another search.', {})
         } else {
-            console.log(arr)
+            // console.log(arr)
             callback(undefined, {
                 locationKey: arr[0].Key
             })
